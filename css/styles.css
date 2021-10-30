@@ -269,11 +269,44 @@ h2 {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.875;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
   padding-top: 30px;
 }
+.social-list {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 30px;
+}
 
-/*footer*/
+.social-list-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  }
+.social-list-item {
+  margin-right: 10px;
+}
+.social-list-item:last-child {
+  margin-right: 0;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  fill: yellow);
+  background-color: var(--main-color);
+  }
+
+.social-icon {
+  height: 20px;
+  fill: #AFB1B8;
+  }
+
+ /*footer*/
 footer {
   padding-top: 60px;
   padding-bottom: 60px;
