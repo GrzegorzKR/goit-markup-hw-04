@@ -39,6 +39,8 @@ figure {
 }
 .container {
   width: 1600px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .section {
@@ -52,7 +54,6 @@ button {
 
 /*===========MENU===========*/
 header {
-  align-items: center;
   border-bottom: 1px solid #ececec;
 }
 
