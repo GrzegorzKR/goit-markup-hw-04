@@ -138,6 +138,12 @@ header {
   padding-bottom: 200px;
 
   background: #2f303a;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(/images/header-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-tittle {
