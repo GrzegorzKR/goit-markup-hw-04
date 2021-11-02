@@ -6,8 +6,6 @@
 }
 
 body {
-  width: 1600px;
-  margin: 0;
   font-family: var(--main-font);
   color: var(--font-color);
 }
@@ -41,8 +39,11 @@ figure {
 .container {
   width: 1200px;
   padding: 0 15px;
-  align-items: center;
+  height: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .section {
@@ -144,14 +145,7 @@ header {
 /*=========== END MENU===========*/
 
 /* =========== MAIN PAGE HEADER===========*/
-.header {
-  width: 1600px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-
+.hero-section {
   background: #2f303a;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -161,7 +155,14 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.header {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .header-tittle {
   width: 696px;
   left: 452px;
@@ -378,6 +379,7 @@ footer a {
   color: rgba(255, 255, 255, 0.6);
 }
 footer .container {
+  justify-content: flex-start;
   display: flex;
   align-items: baseline;
 }
