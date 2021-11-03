@@ -100,7 +100,7 @@ header {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 1.333;
+  letter-spacing: 0.02rem;
   fill: #757575;
 }
 .navigation-list-item:not(:last-child) {
